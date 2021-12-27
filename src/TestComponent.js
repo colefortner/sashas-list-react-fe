@@ -4,7 +4,7 @@ const TestComponent = (props) => {
   const [businessData, setBusinessData] = useState();
   useEffect(() => {
     // fetch("http://localhost:5555/api/businesses/1")
-    fetch("https://sashas-list.heroku.com/api/businesses/1")
+    fetch("https://sashas-list.herokuapp.com/api/businesses/1")
       .then(async (response) => {
         if (response.ok) {
           return response.json();
