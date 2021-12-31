@@ -1,0 +1,16 @@
+.nav-links {
+  background-color: rgb(127, 127, 187);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(235, 226, 226);
+}
